@@ -2,7 +2,7 @@
 
 *Trust the process*
 
-![Profile Picture Lisa Mazzarisi](Profile-Picture-Lisa-Mazzarisi.jpeg "My Profile Picture" )
+![Profile Picture Lisa Mazzarisi](images/Profile-Picture-Lisa-Mazzarisi.jpeg "My Profile Picture" )
 
 ### *Born in the 90s, I am the archetype of my generation: digital native, curious and in constant need of learning.* 
 
@@ -47,5 +47,5 @@ When I was in fifth grade, we used to play catch in the schoolyard. And our base
 #### TL;DR
 My friends still call me "Licorne" since that day. 
 
-[<<  previous ](https://github.com/l4ur4nn3/markdown-challenge.git)[|| LISA ||](https://github.com/lilouMazzarisi/markdown-challenge.git)[ next >>](https://github.com/Shikibata/markdown-challenge.git)
+[<<  previous ](https://github.com/l4ur4nn3/markdown-challenge.git)[|| LISA ||](https://liloumazzarisi.github.io/markdown-to-html/)[ next >>](https://github.com/Shikibata/markdown-challenge.git)
  
