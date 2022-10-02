@@ -32,6 +32,8 @@ table, th, tr, td {
     border: 1px solid;
     border-collapse:collapse;
     text-align: center;
+    background-color: lightgray;
+    color: black;
 
 }
 
@@ -50,6 +52,7 @@ th {
 .introHeader{ 
     text-align: center;
     padding-top: 100px;
+    width: fit-content;
 }
 
 .introduction{ 
