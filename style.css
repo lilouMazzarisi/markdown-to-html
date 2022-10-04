@@ -1,64 +1,121 @@
-body{
-    background-color: black;
+body {
     font-family: Arial, Helvetica, sans-serif;
     color: lightgrey;
-}
-
-header {
-    height: 300px;
+    max-width: 70%;
+    margin: auto;
     background-image: url("images/abstract-uv-ultraviolet-light-composition_23-2149243965.webp");
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
+    position: relative;
 }
-main{
+
+main {
     padding: 40px;
+    position: absolute;
+    display: grid;
 }
 
-footer{
-    display:flex;
+footer {
+    display: flex;
     justify-content: center;
+    border-bottom: 1px solid;
 }
 
-a { 
+h3 {
+    text-transform: uppercase;
+    font-size: x-large;
     color: darkgray;
-    
 }
 
-a:hover{ 
+a {
+    color: darkgray;
+
+}
+
+a:hover {
     color: lightskyblue;
 }
 
-table, th, tr, td {
-    border: 1px solid;
-    border-collapse:collapse;
-    text-align: center;
-    background-color: lightgray;
-    color: black;
+table {
+    border-collapse: collapse;
+    text-align: left;
+    background-color: black;
+    opacity: 40%;
 }
 
 th {
-    width: 200px;
+    padding: 5px 0px 5px 30px;
+    width: 50%;
 }
 
-#profilePicture{
+#profilePicture {
     width: 200px;
     border-radius: 50%;
     align-self: center;
     justify-self: center;
-    padding: 15px;
+    border: 2px solid pink;
 }
 
-.introHeader{ 
+.introHeader {
     text-align: center;
     padding-top: 100px;
+    border-bottom: 1px solid lightgrey;
 }
 
-.introduction{ 
+.introduction {
     display: grid;
-    grid-column: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: center;
 }
 
-.introductionText{ 
+.introductionText {
+    display: flex;
+    flex-flow: column;
     grid-column-start: 2;
     padding: 15px;
+}
+
+.tableHeader {
+    text-align: center;
+    font-size: 18px;
+    background-color: lightgrey;
+    color: black;
+}
+
+.tableRow>th {
+    text-align: left;
+}
+
+.hobbies {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 4;
+    display: inline-block;
+}
+
+.listingHobbies {
+    display: flex;
+}
+
+.listingHobbies>img {
+    width: auto;
+    height: 350px;
+    opacity: 40%;
+}
+
+.teamWork {
+    grid-row: 2;
+    grid-column-end: 3;
+    grid-column-start: 1;
+}
+
+.funnyStory {
+    grid-row: 3;
+    grid-column-end: 3;
+    grid-column-start: 1;
+}
+
+#tldr {
+    display: none;
 }
